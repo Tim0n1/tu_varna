@@ -8,5 +8,5 @@ month2 = day_month_year[1]
 year2 = day_month_year[2]
 l_date = date(int(year2), int(month2), int(day2))
 f_date = date(int(year2), int(month1), int(day1))
-delta = l_date - f_date
+delta = f_date - l_date
 print(delta.days)
